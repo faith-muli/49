@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HairMe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_salon_page">SalonPage</string>
+    <string name="title_activity_salon_info">SalonInfo</string>
+    <string name="title_activity_appointment_request">AppointmentRequest</string>
+    <string name="title_activity_hairstyle_page">HairstylePage</string>
+    <string name="title_activity_hairstyle_info">HairstyleInfo</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/salon</item>
+        <item>@drawable/salon1</item>
+        <item>@drawable/salon2</item>
+        <item>@drawable/salon3</item>
+        <item>@drawable/salon4</item>
+        <item>@drawable/salon5</item>
+        <item>@drawable/salon6</item>
+
+    </string-array>
+
+
+    <string-array name="styles_ids">
+        <item>@drawable/hairstyle</item>
+        <item>@drawable/hairstyle1</item>
+        <item>@drawable/hairstyle2</item>
+        <item>@drawable/hairstyle3</item>
+        <item>@drawable/hairstyle3</item>
+        <item>@drawable/hairstyle4</item>
+        <item>@drawable/hairstyle5</item>
+        <item>@drawable/hairstyle6</item>
+        <item>@drawable/hairstyle7</item>
+
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.faith.hairme" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".InfoPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".SalonPage"
+            android:label="@string/title_activity_salon_page" >
+        </activity>
+        <activity
+            android:name=".SalonInfo"
+            android:label="@string/title_activity_salon_info" >
+        </activity>
+        <activity
+            android:name=".AppointmentRequest"
+            android:label="@string/title_activity_appointment_request" >
+        </activity>
+        <activity
+            android:name=".HairstylePage"
+            android:label="@string/title_activity_hairstyle_page" >
+        </activity>
+        <activity
+            android:name=".HairstyleInfo"
+            android:label="@string/title_activity_hairstyle_info" >
+        </activity>
+    </application>
+
+</manifest>
